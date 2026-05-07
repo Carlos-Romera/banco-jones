@@ -1,0 +1,27 @@
+/* src/pages/SimuladorPage.module.css */
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.titulo {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.simuladorSection,
+.resultados,
+.historialSection {
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  box-shadow: var(--shadow-md);
+}
+
+.resultados {
+  overflow: hidden;
+}

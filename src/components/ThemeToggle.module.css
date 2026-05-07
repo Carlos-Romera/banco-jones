@@ -1,0 +1,13 @@
+/* src/components/ThemeToggle.module.css */
+.toggle {
+  background: none;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-full);
+  font-size: 1.2rem;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.toggle:hover {
+  background: var(--color-bg);
+}

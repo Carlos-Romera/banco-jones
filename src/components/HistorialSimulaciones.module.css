@@ -1,0 +1,45 @@
+/* src/components/HistorialSimulaciones.module.css */
+.contenedor {
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  border: 1px solid var(--color-border);
+}
+
+.titulo {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.lista {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: var(--font-size-sm);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.tipo {
+  font-weight: 600;
+  color: var(--color-primary);
+  width: 80px;
+}
+
+.fecha {
+  color: var(--color-text-light);
+  width: 80px;
+}
+
+.detalle {
+  flex: 1;
+  color: var(--color-text);
+}

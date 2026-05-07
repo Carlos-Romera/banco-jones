@@ -1,0 +1,39 @@
+/* src/components/TablaAmortizacion.module.css */
+.contenedor {
+  margin-top: 2rem;
+}
+
+.titulo {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.tablaScroll {
+  overflow-x: auto;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--font-size-sm);
+}
+
+.tabla th,
+.tabla td {
+  padding: 0.75rem;
+  text-align: right;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.tabla th {
+  font-weight: 600;
+  color: var(--color-text-light);
+  position: sticky;
+  top: 0;
+  background: var(--color-surface);
+}
+
+.tabla tbody tr:hover {
+  background-color: var(--color-bg);
+}

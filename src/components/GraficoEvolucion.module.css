@@ -1,0 +1,10 @@
+/* src/components/GraficoEvolucion.module.css */
+.contenedor {
+  margin-top: 2rem;
+}
+
+.titulo {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}

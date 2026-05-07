@@ -1,0 +1,14 @@
+/* src/styles/print.css */
+@media print {
+  header, footer, .tipoSelector, .btnLimpiar, .btnImprimir, .historialSection {
+    display: none !important;
+  }
+  body {
+    background: white;
+    color: black;
+  }
+  .simuladorSection, .resultados {
+    box-shadow: none;
+    padding: 0;
+  }
+}

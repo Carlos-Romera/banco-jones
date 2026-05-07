@@ -1,0 +1,66 @@
+/* src/styles/theme.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Paleta Mediolanum */
+  --color-primary: #FF6600;
+  --color-primary-hover: #E55D00;
+  --color-secondary: #003B5C;
+  --color-bg: #F5F7FA;
+  --color-surface: #FFFFFF;
+  --color-text: #1E2A38;
+  --color-text-light: #5B6A7A;
+  --color-success: #2E7D32;
+  --color-error: #C62828;
+  --color-border: #E1E8EE;
+
+  /* Tipografía */
+  --font-family: 'Montserrat', sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+
+  /* Radios */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  /* Sombras */
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.08);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.1);
+}
+
+/* Modo oscuro automático */
+[data-theme="dark"] {
+  --color-bg: #0F1A2A;
+  --color-surface: #1A2A3A;
+  --color-text: #E1E8EE;
+  --color-text-light: #A0B0C0;
+  --color-border: #2D3B4A;
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.3);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.4);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color 0.3s, color 0.3s;
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
